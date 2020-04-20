@@ -35,7 +35,7 @@ int main(void) {
 	iniciarColas();
 	//iniciarHilos();
 	 pthread_t hiloT1;
-	 hiloTest1 = pthread_create(&hiloT1, NULL, &procesoLoco, "Hilo Creado");
+	 hiloTest1 = pthread_create(&hiloT1, NULL, &procesoLoco, "Hilo creado");
 	 pthread_join(hiloT1, NULL);
 
 	return EXIT_SUCCESS;
